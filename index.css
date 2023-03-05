@@ -387,6 +387,9 @@ footer p{
     .part-3 img{
         width: 115%;
     }
+    .contein{
+        flex-direction: column;
+    }
     #contein-1 h2{
         font-size: 30px;
     }
