@@ -1,0 +1,575 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    transition-property: all;
+    transition-duration: 4s;
+}
+:root{
+    --couleurPrinc: pink;
+}
+header{
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.part-1{
+    margin-left: 10%;
+    background-color: var(--couleurPrinc);
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav ul{
+    width:30rem;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+nav ul li a{
+    color: rgba(0,0,0,0.5);
+    font-size: 1.5em;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: var(--couleurPrinc);
+    border-bottom: 2px solid var(--couleurPrinc);
+}
+.contein{
+    margin-top: 8%;
+    margin-left: 5%;
+    display: flex;
+}
+.part-2 h1{
+    font-size: 40px;
+    color: var(--couleurPrinc);
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.part-2 p{
+    color: rgba(0,0,0,0.5);
+    margin-bottom: 5%;
+}
+button{
+    background-color: var(--couleurPrinc);
+    font-size: 20px;
+    width: 50%;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 15%;
+}
+button:hover{
+    border: 2px solid var(--couleurPrinc);
+    background-color: transparent;
+}
+.part-3 img{
+    width: 150%;
+}
+#contein-1{
+    margin: 10px;
+}
+#contein-1 h2{
+    font-size: 50px;
+    text-align: center;
+}
+#contein-1 hr{
+    width: 10%;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: var(--couleurPrinc);
+    font-weight: bold;
+}
+.part-4{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.enf-1{
+    width: 25%;
+    height: 35vh;
+    border-radius: 10%;
+    border: 1px solid black;
+}
+.enf-1:hover{
+    box-shadow: 10px 10px 10px rgb(201, 196, 196),-10px 10px 10px rgb(201, 196, 196),10px -10px 10px rgb(201, 196, 196);
+    transition: 2s;
+    border: none;
+}
+.enf-1 .imd-1{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    padding: 10px 20px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: var(--couleurPrinc);
+}
+.enf-1 h3{
+    font-size: 25px;
+    text-align: center;
+    margin: 10px 0;
+}
+.enf-1 p{
+    text-align: center;
+    color: rgba(0,0,0,0.5);
+}
+.enf-2{
+    width: 25%;
+    height: 35vh;
+    border-radius: 10%;
+    border: 1px solid black;
+}
+.enf-2:hover{
+    box-shadow: 10px 10px 10px rgb(201, 196, 196),-10px 10px 10px rgb(201, 196, 196),10px -10px 10px rgb(201, 196, 196);
+    transition: 2s;
+    border: none;
+}
+.enf-2 .imd-1{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    padding: 10px 20px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: var(--couleurPrinc);
+}
+.enf-2 h3{
+    font-size: 25px;
+    text-align: center;
+    margin: 10px 0;
+}
+.enf-2 p{
+    text-align: center;
+    color: rgba(0,0,0,0.5);
+}
+.enf-3{
+    width: 25%;
+    height: 35vh;
+    border-radius: 10%;
+    border: 1px solid black;
+}
+.enf-3:hover{
+    box-shadow: 10px 10px 10px rgb(201, 196, 196),-10px 10px 10px rgb(201, 196, 196),10px -10px 10px rgb(201, 196, 196);
+    transition: 2s;
+    border: none;
+}
+.enf-3 .imd-1{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    padding: 10px 20px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: var(--couleurPrinc);
+}
+.enf-3 h3{
+    font-size: 25px;
+    text-align: center;
+    margin: 10px 0;
+}
+.enf-3 p{
+    text-align: center;
+    color: rgba(0,0,0,0.5);
+}
+.contein-2{
+    display: flex;
+    align-items: center;
+    background-color: rgba(92, 88, 88, 0.5);
+    margin-top: 10%;
+}
+.enf-4{
+    margin-left: 5%
+}
+.enf-4 h3{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.enf-4 p{
+    color: rgba(0,0,0,0.5);
+}
+.enf-5 img{
+    width: 150%;
+    margin-left: 8%;
+}
+.contein-3{
+    margin-top: 10%;
+}
+.contein-3 h1{
+    font-size: 10vh;
+    text-align: center;
+}
+.contein-3 hr{
+    width: 25%;
+    margin: auto;
+    background-color: var(--couleurPrinc);
+}
+.part{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.part-5{
+    background-color: rgba(83, 80, 80, 0.5);
+    position: relative;
+    margin: 5%;
+}
+.part-5 .item-1{
+    float: right;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+}
+.part-5 .item-1 h5{
+    font-size: 1.9rem;
+    font-weight: bold;
+    text-align: center;
+}
+.part-5 .item-1 p{
+    color: rgba(0,0,0,0.5);
+}
+.part-5 .item-1 #p-1{
+    margin-bottom: 15%;
+}
+.part-5 .item-1 p{
+    letter-spacing: 0.8px;
+    text-align: center;
+}
+.part-5 .item-1 i{
+    font-size: 5vh;
+   margin-left: 5vh;
+   margin-top: 5px;
+   color: var(--couleurPrinc);
+}
+.part-5:hover{
+    border-radius: 10%;
+    box-shadow: 10px 10px 10px rgb(54, 53, 53);
+}
+.part-6{
+    background-color: rgba(83, 80, 80, 0.5);
+    position: relative;
+    margin: 5%;
+}
+.part-6 .item-2{
+    float: right;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+}
+.part-6 .item-2 h5{
+    font-size: 1.9rem;
+    font-weight: bold;
+    text-align: center;
+}
+.part-6 .item-2 p{
+    color: rgba(0,0,0,0.5);
+}
+.part-6 .item-2 #p-2{
+    margin-bottom: 15%;
+}
+.part-6 .item-2 p{
+    letter-spacing: 0.8px;
+    text-align: center;
+}
+.part-6 .item-2 i{
+    font-size: 5vh;
+   margin-left: 5vh;
+   margin-top: 5px;
+   color: var(--couleurPrinc);
+}
+.part-6:hover{
+    border-radius: 10%;
+    box-shadow: 10px 10px 10px rgb(54, 53, 53);
+}
+.part-7{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contein-4{
+    background-color: rgba(0,0,0,0.5);
+    height: 33rem;
+}
+.contein-4 h1{
+    text-align: center;
+    color: var(--couleurPrinc);
+    padding-top: 5%;
+    font-size: 8vh;
+}
+.contein-4 hr{
+    width: 10%;
+    color: var(--couleurPrinc);
+    margin: auto;
+    margin-bottom: 3%;
+}
+.img3 img{
+    width: 70vh;
+}
+.part-7{
+    margin-left: 8%;
+}
+.T{
+    width: 14.5rem;
+    padding: 5px;
+    margin: 4px;
+}
+textarea{
+    padding: 5px;
+}
+#sub{
+    background-color: var(--couleurPrinc);
+    font-size: 18px;
+    text-align: center;
+    width: 25vh;
+    height: 25px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 15%;
+    margin-left: 6%;
+}
+#sub:hover{
+    width: 35vh;
+    font-size: 20px;
+    background-color: transparent;
+    border: 1px solid var(--couleurPrinc);
+    color: var(--couleurPrinc);
+}
+footer{
+    margin-top: 10%;
+}
+footer hr{
+    width: 50%;
+    margin: auto;
+}
+footer p{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 25px;
+    color: rgba(0,0,0,0.5);
+}
+
+@media screen and (max-width:500px){
+    .part-1{
+        margin-left: 8%;
+        width: 40px;
+        height: 40px;
+        font-size: 1em;
+    }
+    nav ul{
+        width:15rem;
+        margin-right: 30px;
+    }
+    nav ul li a{
+        font-size: 0.8em;
+    }
+    .part-2 h1{
+        font-size: 19px;
+        margin-bottom: 9px;
+    }
+    .part-2 p{
+        margin-bottom: 8%;
+        font-size: 15px;
+    }
+    button{
+        font-size: 12px;
+        width: 45%;
+        height: 25px;
+    }
+    .part-3 img{
+        width: 115%;
+    }
+    #contein-1 h2{
+        font-size: 30px;
+    }
+    #contein-1 hr{
+        width: 14%;
+    }
+    .part-4{
+        margin-top: 8%;
+        flex-direction: column;
+    }/*
+    .enf-1{
+        width: 35%;
+        height: 38vh;
+        margin-right: 5%;
+    }
+    .enf-1 .imd-1{
+        width: 30px;
+        height: 30px;
+        padding: 8px 10px;
+    }
+    .enf-1 h3{
+        font-size: 16px;
+        text-align: center;
+        margin: 8px 0;
+    }
+    .enf-1 p{
+        font-size: 0.8em;
+        padding-top: 10%;
+    }
+    .enf-2{
+        width: 35%;
+        height: 38vh;
+        margin-right: 5%;
+    }
+    .enf-2 .imd-1{
+        width: 30px;
+        height: 30px;
+        padding: 8px 10px;
+    }
+    .enf-2 h3{
+        font-size: 16px;
+        text-align: center;
+        margin: 8px 0;
+    }
+    .enf-2 p{
+        font-size: 0.8em;
+        padding-top: 10%;
+    }
+    .enf-3{
+        width: 35%;
+        height: 38vh;
+    }
+    .enf-3 .imd-1{
+        width: 30px;
+        height: 30px;
+        padding: 8px 10px;
+    }
+    .enf-3 h3{
+        font-size: 16px;
+        text-align: center;
+        margin: 8px 0;
+    }
+    .enf-3 p{
+        font-size: 0.8em;
+    }*/
+    .enf-1{
+        width: 100%;
+        height: 35vh;
+        margin-bottom: 10%;
+    }
+    .enf-2{
+        width: 100%;
+        height: 35vh;
+        margin-bottom: 10%;
+    }
+    .enf-3{
+        width: 100%;
+        height: 35vh;
+        margin-bottom: 10%;
+    }
+    .enf-4 h3{
+        font-size: 20px;
+        width: 150%;
+        margin-top: 20%;
+    }
+    .enf-4 p{
+        font-size: 0.8em;
+        margin-bottom: 5%;
+    }
+    .enf-5 img{
+        width: 90%;
+        
+    }
+    .contein-3 h1{
+        font-size: 5vh;
+    }
+    .contein-3 hr{
+        width: 15%;
+    }
+    /*
+    .part{
+        flex-direction: column;
+    }
+    .part-5 .item-1{
+        top: 10%;
+    }
+    .part-6 .item-2{
+        top: 10%;
+    }
+    .part-5 .item-1 p{
+        font-size: 0.8em;
+    }
+    .part-6 .item-2 p{
+        font-size: 0.8em;
+    }*/
+    .part-5{
+        width: 550vh;
+        height: 40vh;
+        margin-top: 5%;
+        margin-left: 2%;
+    }
+    .part-5 .item-1{
+        top: 10%;
+        left: 40%;
+    }
+    .part-5 .item-1 h5{
+        font-size: 0.9rem;
+    }
+    .part-5 .item-1 p{
+        font-size: 0.8em;
+    }
+    .part-5 .item-1 i{
+        font-size: 2.5vh;
+        margin-left: 3vh;
+        margin-top: 8px;
+    }
+    .part-6{
+        width: 550vh;
+        height: 40vh;
+        margin-top: 5%;
+        margin-left: 2%;
+    }
+    .part-6 .item-2{
+        top: 10%;
+        left: 40%;
+    }
+    .part-6 .item-2 h5{
+        font-size: 0.9rem;
+    }
+    .part-6 .item-2 p{
+        font-size: 0.8em;
+    }
+    .part-6 .item-2 i{
+        font-size: 2.5vh;
+        margin-left: 3vh;
+        margin-top: 8px;
+    }
+    .contein-4 h1{
+        padding-top: 5%;
+        font-size: 5vh;
+    }
+    .img3 img{
+        width: 55vh;
+    }
+    .part-7{
+        margin-left: 0;
+    }
+    form{
+        margin-top: 10%;
+    }
+    .T{
+        width: 10rem;
+    }
+    textarea{
+        width: 10rem;
+        padding: 5px;
+    }
+    #sub:hover{
+        width: 25vh;
+        font-size: 20px;
+        background-color: transparent;
+    }
+    footer p{
+        font-size: 15px;
+    }
+}
