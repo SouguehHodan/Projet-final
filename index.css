@@ -493,10 +493,10 @@ footer p{
         flex-direction: column;
     }
     .part-5{
-        height: 50vh;
+        height: 40vh;
     }
     .part-6{
-        height: 50vh;
+        height: 40vh;
     }
     .part-5 .item-1{
         top: 10%;
@@ -506,9 +506,11 @@ footer p{
     }
     .part-5 .item-1 i{
         font-size: 2vh;
+        margin-left: 5px;
     }
     .part-6 .item-2 i{
         font-size: 2vh;
+        margin-left: 5px;
     }
     .part-5 .item-1 p{
         font-size: 0.8em;
