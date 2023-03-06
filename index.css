@@ -489,7 +489,6 @@ footer p{
     .contein-3 hr{
         width: 15%;
     }
-    /*
     .part{
         flex-direction: column;
     }
@@ -504,7 +503,7 @@ footer p{
     }
     .part-6 .item-2 p{
         font-size: 0.8em;
-    }*/
+    }/*
     .part-5{
         width: 550vh;
         height: 40vh;
@@ -546,26 +545,29 @@ footer p{
         font-size: 2.5vh;
         margin-left: 3vh;
         margin-top: 8px;
-    }
+    }*/
     .contein-4 h1{
         padding-top: 5%;
         font-size: 5vh;
     }
     .img3 img{
-        width: 55vh;
+        width: 0;
     }
     .part-7{
         margin-left: 0;
     }
     form{
         margin-top: 10%;
+        margin-left: 5%;
+        width: 20vh;
     }
     .T{
-        width: 10rem;
+        width: 20rem;
     }
     textarea{
-        width: 10rem;
+        width: 20rem;
         padding: 5px;
+        margin-left: 5px;
     }
     #sub:hover{
         width: 25vh;
